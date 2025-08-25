@@ -1,0 +1,138 @@
+body {
+   background-image: url(bg-1.c4af02e1ec090322.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 450px;
+    position: relative;
+}
+.login-box h1 {
+    color: #c8102e;
+    font-size: 40px;
+}
+
+.login-box h2 {
+    font-size: 20px;
+
+}
+
+label {
+    font-style: helvetica;
+    display: block;
+    margin: 10px 0 10px;
+    font-size: 12px;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    width: 10%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forgot-username {
+    color: #c8102e;
+    text-decoration: none;
+    
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    background-color: #c8102e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b0072c;
+}
+
+p {
+    text-align: center;
+}
+.para {
+    width: fit-content;
+    font-size: larger;
+    font-weight: 500;
+}
+.Register {
+    font-weight: bolder;
+}
+
+#translate {
+    position: absolute;
+    left: 87%;
+    top: 10%;
+    z-index: 1;
+}
+.title{
+    position: relative;
+    z-index: 0;
+}
+
+.continue {
+    font-weight: bold;
+}
+
+.page {
+    color: blue;
+    text-decoration: underline;
+}
+.page:hover {
+    font-weight: bolder;
+}
+
+.Pass {
+    width: 80%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forgot-password {
+    display: block;
+    margin: 10px 0;
+    font-size: 16px;
+    color: #c8102e;
+    position: relative;
+    right: 0px;
+    text-decoration: none;
+}
